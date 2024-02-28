@@ -3,12 +3,13 @@
 #  Hint - Legal Age.
 #  Print on console the result.
 
-def adult? (age)
+def is_adult?(age)
   if age >=18
-    put (adult)
+    puts('adult')
   end
-  if age <=18
-    puts (not adult)
+  if age < 18
+    puts('not adult')
   end
 end
 
+is_adult?(12)
